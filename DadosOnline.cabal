@@ -58,13 +58,13 @@ executable DadosOnline
   --, DeriveGeneric
 
   -- Other library packages from which modules are imported.
-  build-depends:        base >=4.7 && <4.8,
-                        aeson >=0.8 && <0.9,
-                        http-conduit >=2.1 && <2.2,
-                        bytestring >=0.10 && <0.11,
-                        text >=1.2 && <1.3,
-                        Chart >=1.3 && <1.4,
-                        Chart-diagrams >=1.3 && <1.4
+  build-depends:        base,
+                        bytestring,
+                        text,
+                        aeson,
+                        http-conduit,
+                        Chart,
+                        Chart-cairo
 
 
   -- Directories containing source files.

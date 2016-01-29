@@ -1,7 +1,7 @@
 module DadosOnlineChart where
 
 import           Control.Applicative                       ((<$>))
-import           Graphics.Rendering.Chart.Backend.Diagrams
+import           Graphics.Rendering.Chart.Backend.Cairo
 import           Graphics.Rendering.Chart.Easy
 
 geraFiguraBarrasQuestãoUm :: String -> [String] -> [(String, [Double])] -> IO ()
